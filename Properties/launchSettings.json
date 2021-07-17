@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "hello-world": {
+      "commandName": "Project",
+      "commandLineArgs": "southern meh texas"
+    }
+  }
+}
