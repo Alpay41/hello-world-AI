@@ -9,12 +9,12 @@ namespace hello_world
         {
 
             Console.WriteLine("Howdy Y'all!!");
-            Console.WriteLine("Please type your name");
+            Console.WriteLine("what should I call you?");
 
             var name = Console.ReadLine();
 
-            Console.WriteLine($"Hello {name}");
-            Console.WriteLine("Please type your favorite color");
+            Console.WriteLine($"hey {name}");
+            Console.WriteLine("what's your fav color?");
 
             var favoriteColor = Console.ReadLine();
 
@@ -33,7 +33,8 @@ namespace hello_world
 
             Random rand = new Random();
             int index = rand.Next(animals.Length);
-            Console.WriteLine($"Would you like to have a {favoriteColor} {animals[index]}?");
+            Console.WriteLine($"how's about a {favoriteColor} {animals[index]}?");
+
             Console.WriteLine("Pick your poison:");
             for (var i = 0; i < args.Length; i++)
             {
