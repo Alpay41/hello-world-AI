@@ -7,7 +7,6 @@ namespace hello_world
     {
         static void Main(string[] args)
         {
-
             Console.WriteLine("Howdy Y'all!!"); // greeting lines
             Console.WriteLine("what should I call you?");
 
@@ -17,8 +16,6 @@ namespace hello_world
             Console.WriteLine("what's your fav color?");
 
             var favoriteColor = Console.ReadLine(); // read user input
-
-
             var animals = new String[] { "Triceratops", "Gorilla", "Corgi", "Toucan" };
 
             foreach (var animal in animals) // print animals with more than 5 chars
